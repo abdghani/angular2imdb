@@ -1,0 +1,36 @@
+<div *ngIf="movie_detail">
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					    	{{movie_detail.Title}}
+					    </div>
+					    
+					    	<div class="thumbnail">
+					    	<div class="row">
+					    		<div class="col-md-6">
+					    			<img src={{movie_detail.Poster}} class="img-rounded" width="500px" height="600px">
+					    		</div>
+					    		<div class="col-md-6">
+					    			
+					              <div class="caption">
+					                <h4>{{movie_detail.Title}}</h4>
+					                	<h3>PLOT</h3>
+					                <p>{{movie_detail.Plot}}</p>
+					             	<h3>Release</h3>
+					             	<p>{{movie_detail.Released}}</p>
+					             	<h3>Runtime</h3>
+					             	<p>{{movie_detail.Runtime}}</p>
+					             	<h3>Cast</h3>
+					             	<p>{{movie_detail.Actors}}</p>
+					             	<h3>Imdb</h3>
+					             	<p>{{movie_detail.imdbRating}}</p>
+					             	<h3>Awards</h3>
+					             	<p>{{movie_detail.Awards}}</p>
+					              </div>
+					    		</div>
+					    	</div>
+					            
+					              
+					        </div>
+					    
+					</div>
+</div>
