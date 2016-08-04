@@ -7,6 +7,8 @@ import {Component,Output,EventEmitter} from '@angular/core'
 
 export class SearchbarComponent{
 	@Output()notify: EventEmitter<string> = new EventEmitter<string>();
+
+	inputValue:string = "shawshank redemption"
 	onSubmit = function(){
 		this.notify.emit(this.inputValue)
 	}

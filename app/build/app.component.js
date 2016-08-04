@@ -22,6 +22,10 @@ var AppComponent = (function () {
         this._movie_detail_service.getAllDetials(message).then(function (data) { return _this.search_query = data; });
     };
     ;
+    AppComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this._movie_detail_service.getAllDetials("shawshank redemption").then(function (data) { return _this.search_query = data; });
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',

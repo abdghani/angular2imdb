@@ -24,6 +24,9 @@ export class AppComponent{
 
 	onNotify(message:string):void {
 	    this._movie_detail_service.getAllDetials(message).then(data => this.search_query = data);
-	   
-	    };
+	};
+
+	ngOnInit():any{
+		this._movie_detail_service.getAllDetials("shawshank redemption").then(data => this.search_query = data);
+	}
 }

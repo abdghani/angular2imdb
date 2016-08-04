@@ -12,6 +12,7 @@ var core_1 = require('@angular/core');
 var SearchbarComponent = (function () {
     function SearchbarComponent() {
         this.notify = new core_1.EventEmitter();
+        this.inputValue = "shawshank redemption";
         this.onSubmit = function () {
             this.notify.emit(this.inputValue);
         };
