@@ -6,6 +6,8 @@
 >2 . `npm install`   
 >3 . `npm start`
 
+>>### demo
+[DEMO](http://ec2-52-39-216-105.us-west-2.compute.amazonaws.com:3000/)
 
 >>### snapshot
 ![alt text](https://github.com/abdghani/angular2_imdb_app/blob/master/imdb.png?raw=true "Title")
