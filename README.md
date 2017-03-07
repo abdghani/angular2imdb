@@ -1,13 +1,20 @@
-#   ANGULAR_2_IMDB
-### a simple imbd app made using angular 2 and Omdb API
 
-##### > Steps to run :-
->1 . clone the app  
->2 . `npm install`   
->3 . `npm start`
+# ANGULAR2IMDB
 
->>### demo
-[DEMO](http://ec2-52-39-216-105.us-west-2.compute.amazonaws.com:3000/)
+Get information of an movie just by searcing its name .
+Build Using Angular 2
 
->>### snapshot
+##Install
+> - clone the repo
+> - npm install
+> - npm start
+
+##Dependencies
+> - node 6 and above
+
+##Link
+[DEMO](http://104.236.87.227:3000)
+
+
+>>## snapshot
 ![alt text](https://github.com/abdghani/angular2_imdb_app/blob/master/imdb.png?raw=true "Title")
